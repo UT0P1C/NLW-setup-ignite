@@ -36,7 +36,11 @@ export function SummaryTable () {
         {
           summaryDates.map(date => {
             return (
-              <HabitDay key={date.toString()}/>
+              <HabitDay
+                key={date.toString()}
+                completed={Math.round(Math.random() * 5)}
+                amount={5}
+              />
             )
           })
         }
