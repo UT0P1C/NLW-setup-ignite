@@ -15,7 +15,7 @@ const weekDays = [
 
 const datesFromYearStart = generateDatesFromYearBeginning();
 const minimumSummaryDatesSize = 18 * 5;
-const amountOfDaysToFill = minimumSummaryDatesSize - datesFromYearStart.length
+const amountOfDaysToFill = minimumSummaryDatesSize - datesFromYearStart.length;
 
 export function Home() {
   return (
@@ -62,5 +62,5 @@ export function Home() {
       </ScrollView>
 
     </View>
-  )
+  );
 }
